@@ -1,0 +1,1 @@
+select caiming,peiliao,peiliaoPrice from Tcaidan_1,Tpeiliao_1,caidan_peiliao where Tcaidan_1.UID = caidan_peiliao.cid and Tpeiliao_1.pid=caidan_peiliao.pid and Tcaidan_1.caiming = 'ÌÇ´×Á«°×';
